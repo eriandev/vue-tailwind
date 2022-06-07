@@ -1,8 +1,7 @@
 {
   "recommendations": [
-    "octref.vetur",
+    "Vue.volar",
     "heybourn.headwind",
-    "johnsoncodehk.volar",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss"
   ]
