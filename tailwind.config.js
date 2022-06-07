@@ -1,6 +1,6 @@
 /** @type { import('@types/tailwindcss/tailwind-config').TailwindConfig } */
 module.exports = {
-  purge: ['./index.html', './src/**/*.vue'],
+  content: ['./index.html', './src/**/*.vue'],
   darkMode: 'media',
   theme: {
     extend: {},
