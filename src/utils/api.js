@@ -8,10 +8,11 @@ export const http = axios.create({
 })
 
 const token = window.localStorage.getItem(STORE_TOKEN)
-token && http.interceptors.request.use((config) => {
-  config.headers = {
-    Authorization: `Bearer ${token}`,
-  }
+token &&
+  http.interceptors.request.use((config) => {
+    config.headers = {
+      Authorization: `Bearer ${token}`,
+    }
 
-  return config
-})
+    return config
+  })
